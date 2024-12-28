@@ -1,0 +1,10 @@
+/**General Introduction
+
+This file documents the networking features in GNU Awk (gawk) version 4.0 and later.
+
+This is Edition 1.6 of TCP/IP Internetworking with gawk, for the 5.2.0 (or later) version of the GNU implementation of AWK. **/
+
+void main(int argc, char* argv[])
+{
+  return 0;
+}

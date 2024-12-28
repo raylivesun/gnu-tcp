@@ -1,0 +1,3 @@
+	edit : c++ -c main.cpp -o gnu-tcp
+clean :
+        	rm edit gnu-tcp.o \
