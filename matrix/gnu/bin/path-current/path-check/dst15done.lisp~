@@ -1,0 +1,51 @@
+;; Name Project: "GNU Emacs Call Text BDC Zip"
+;; Name Program: "GNU Emacs Shark Text BDC Zip"
+;; Name Extension "Lisp"
+;; Name Data 512
+;; Name Unit 512
+
+(provide 'zip)
+(require 'zip)
+
+(load("/home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/dst15rep.lisp"))
+(load("/home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/dst10rep.lisp"))
+(load("/home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/pop-temp.lisp"))
+(load("/home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/standard.lisp"))
+(load("/home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/debug.gdb"))
+
+
+
+(defmacro call-text (bdc &optional zip
+			 :clear info)
+  (declare ((bdc &optional zip
+		 :clear info)
+	    (let* ((done --static
+			 :sucessful ok)
+		   (if (cond ((shell !)
+			      (t (function shell)
+				 (:sucessful ok))
+			      (t (function text)
+				 (:sucessful ok))
+			      (t (function tui)
+				 (:enable zip))))
+		       (then
+			(apropos word
+				 (if (cond ((shell !)
+					    (t (function shell)
+					       (:word x/fmt))
+					    (t (function shell)
+					       (:word bfd))
+					    (t (function shell)
+					       (:word bdc))))
+				     (then
+				      (call $args))
+				   (else
+				    (call $text)))
+				 ))
+		     (else
+		      (call $args)))
+		   )))
+	   )
+  'bdc zip
+  :clear info)
+				   

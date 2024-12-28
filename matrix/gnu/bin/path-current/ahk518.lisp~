@@ -1,0 +1,55 @@
+;; Name Project "GNU Emacs List Sets"
+;; Name Program "GNU Emacs Shark Settings"
+;; Name Extension "Lisp"
+;; Name Data 512
+;; Name Unit 512
+
+(provide 'exclusive)
+(require 'exclusive)
+
+(defmacro cl-set-exclusive (list1 list2 &key :test
+				  :test-no :key p)
+  (declare ((list1 list2 &key :test
+		   :test-no :key p)
+	    (let* ((frame 1930917 86
+			  (bytes on-wire 688 bits
+				 86 bytes captured 688 bits))
+		   (interface-id 0)
+		   (interface-name "sh:on")
+		   (encapsulation-type: "Ethernet (1)")
+		   (arrival-time: "Dec 24, 2024 00:56:06.310282213 -03")
+		   ([time-shift "this-packet" 0.000000000 seconds])
+		   (epoch-time 1735012566.310282213 seconds)
+		   ([time-delta-from "previous-captured-frame"
+				    0.021270080 seconds])
+		   ([time-delta-from "previous-displayed-frame"
+				    0.021270080 seconds])
+		   ([time-since-ref "first-frame"
+				    203324.8110554765 seconds])
+		   (frame-number "1930917")
+		   (frame-length "86" "bytes" "(688 bits)")
+		   (captured-length "86" "bytes" "(688 bits)")
+		   ([frame-marked "False"])
+		   ([frame-ignored "False"])
+		   ([protocols-frame "eth:ethertype:ipv6:icmpv6"])
+		   ([coloring-rule-name "icmp"])
+		   ([coloring-rule-string "icmp" || "icmpv6"])))
+	    (lambda ((ethernet-ii :src "_gateway" "(98:b3:ef:7b:13:8a)"
+				  :dst "pop-os.local" "(5c:ea:1d:d8:11:1f)")
+		     (address "pop-os.local" "5c:ea:1d:d8:11:1f")
+		     `(
+		       0 = "LG bit: Global unique address (factory default)"
+			 0 = "IG bit: Individual adress (unicast)")
+		     `(source
+		       "_gateway" "98:b3:ef:7b:13:8a"
+		       (:address "98:b3:ef:7b:13:8a")
+		       0 = "LG bit: Global unique address (factory default)"
+		       0 = "IG bit: Individual address (unicast)")
+		     `(type "ipv6 (0x86dd)")))
+	    ))
+  'list1 list2
+  :test-no)
+		     
+	      
+		   
+		   

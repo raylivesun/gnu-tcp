@@ -1,0 +1,105 @@
+Listing of compilation of file /home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/standard.lisp
+on 2024-12-26 07:49:18 by CLISP, version 2.49.93+ (2018-02-18) (built on lcy02-amd64-055.buildd [127.0.1.1])
+;; Compiling file /home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/standard.lisp ...
+
+Disassembly of function #:|1 7 (PROVIDE 'PAMPS)-1|
+(CONST 0) = PAMPS
+(CONST 1) = PROVIDE
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+3 byte-code instructions:
+0     (CONST&PUSH 0)                      ; PAMPS
+1     (CALL1 1)                           ; PROVIDE
+3     (SKIP&RET 1)
+
+Disassembly of function #:|8 8 (REQUIRE 'PAMPS)-2|
+(CONST 0) = PAMPS
+(CONST 1) = REQUIRE
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+3 byte-code instructions:
+0     (CONST&PUSH 0)                      ; PAMPS
+1     (CALL1 1)                           ; REQUIRE
+3     (SKIP&RET 1)
+WARNING: in #:|10 10 (LOAD
+         ("/home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-dialog/pg612.lisp"))-3|
+         in line 10 : Not the name of a function:
+         "/home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-dialog/pg612.lisp"
+         Ignore the error and proceed
+
+Disassembly of function #:|10 10 (LOAD ("/home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-dialog/pg612.lisp"))-3|
+(CONST 0) = LOAD
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+3 byte-code instructions:
+0     (NIL&PUSH)
+1     (CALL1 0)                           ; LOAD
+3     (SKIP&RET 1)
+WARNING: in AI-EPAMPS in lines 12..29 : Unknown
+         declaration LET.
+         The whole declaration will be ignored.
+WARNING: in AI-EPAMPS in lines 12..29 : Unknown
+         declaration AI.
+         The whole declaration will be ignored.
+WARNING: in AI-EPAMPS in lines 12..29 : Constant :QUICK
+         cannot be bound.
+         Ignore the error and proceed
+WARNING: in AI-EPAMPS in lines 12..29 : variable AI is
+         not used.
+         Misspelled or missing IGNORE declaration?
+WARNING: in AI-EPAMPS in lines 12..29 : variable PAMPS is
+         not used.
+         Misspelled or missing IGNORE declaration?
+
+Disassembly of function #:|12 29 (DEFMACRO AI-EPAMPS (AI &OPTIONAL PAMPS ...) ...)-4|
+(CONST 0) = AI-EPAMPS
+(CONST 1) = SYSTEM::REMOVE-OLD-DEFINITIONS
+(CONST 2) = #<COMPILED-FUNCTION AI-EPAMPS>
+(CONST 3) = (AI &OPTIONAL PAMPS :QUICK DNS)
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+9 byte-code instructions:
+0     (CONST&PUSH 0)                      ; AI-EPAMPS
+1     (CALL1 1)                           ; SYSTEM::REMOVE-OLD-DEFINITIONS
+3     (CONST&PUSH 0)                      ; AI-EPAMPS
+4     (CONST&PUSH 2)                      ; #<COMPILED-FUNCTION AI-EPAMPS>
+5     (CONST&PUSH 3)                      ; (AI &OPTIONAL PAMPS :QUICK DNS)
+6     (CALLS2&PUSH 76)                    ; SYSTEM::MAKE-MACRO
+8     (CALLS2 156)                        ; SYSTEM::%PUTD
+10    (CONST 0)                           ; AI-EPAMPS
+11    (SKIP&RET 1)
+
+Disassembly of function AI-EPAMPS
+(CONST 0) = 2
+(CONST 1) = 5
+(CONST 2) = SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+(CONST 3) = SYSTEM::MACRO-CALL-ERROR
+2 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+14 byte-code instructions:
+0     (LOAD&PUSH 2)
+1     (CONST&PUSH 0)                      ; 2
+2     (CONST&PUSH 1)                      ; 5
+3     (NIL&PUSH)
+4     (CALL 4 2)                          ; SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+7     (JMPIFNOT L15)
+9     (LOAD&PUSH 2)
+10    (CALLS1 162)                        ; FIFTH
+12    (VALUES1)
+13    (SKIP&RET 3)
+15    L15
+15    (LOAD&PUSH 2)
+16    (CALL1 3)                           ; SYSTEM::MACRO-CALL-ERROR
+18    (SKIP&RET 3)
+;; Deleted file /home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/standard.fas
+;; Wrote file /home/admin/app/locust/gnu-tcp/matrix/gnu/bin/path-current/path-check/standard.lis

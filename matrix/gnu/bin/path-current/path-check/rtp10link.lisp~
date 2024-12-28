@@ -1,0 +1,41 @@
+;; Name Project: "GNU Emacs RTP link static reference move"
+;; Name Program: "GNU Emacs Shark RTP link move"
+;; Name Extension "Lisp"
+;; Name Data 512
+;; Name Unit 512
+
+(provide 'rtp)
+(require 'rtp)
+
+
+
+(defmacro rtp-link-move (rtp &optional link
+			     :move rlink)
+  (declare ((rtp &optional link
+		 :move rlink)
+	    (let* ((lollipop --static
+			     :move rlink)
+		   (if (cond ((jit-reader-load)
+			      (t (function radios)
+				 (:regex $_regex))
+			      (t (function layout)
+				 (:src apply))
+			      (t (function prev)
+				 (:prev prev))))
+		       (then
+			(lambda ((show warranty)
+				 (t (function warranty)
+				    (:show warranty))
+				 (t (function overlay)
+				    (:overlay auto))
+				 (t (function overlay)
+				    (:overlay manual))))
+			)))
+	      (interactive :overlay auto)))
+	   )
+  'rtp link
+  :move rlink)
+
+
+			     
+	   
